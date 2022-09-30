@@ -1,0 +1,4 @@
+.project
+*.jar
+target/
+*.class
