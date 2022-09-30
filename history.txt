@@ -1,0 +1,500 @@
+  251  git add .
+  252  git status
+  253  git commit -m "master commit 3"
+  254  git status
+  255  git log --all --oneline --graph
+  256  git branch
+  257  git merge v1bugfix
+  258  git status
+  259  git add .
+  260  git merge --continue
+  261  git log --all --oneline --graph
+  262  git log --all --oneline --graph
+  263  git checkout v1bugfix 
+  264  git log --all --oneline --graph
+  265  git merge master
+  266  git log --all --oneline --graph
+  267  git log --all --oneline --graph
+  268  pwd
+  269  cd..
+  270  cd ..
+  271  pwd
+  272  ls -al
+  273  git clone https://github.com/osmanyil2017/gitstrain.git gitstrain
+  274  cd gitstrain/
+  275  status
+  276  git status
+  277  git status
+  278  git add ç
+  279  git add .
+  280  git commit -m "first commit"
+  281  git push
+  282  git status
+  283  git add .
+  284  git status
+  285  git commit -m "second commit"
+  286  git push
+  287  git fetch 
+  288  git log --all --oneline --graph
+  289  git log --all --oneline --graph --decorate
+  290  git merge origin/master
+  291  git status
+  292  git add .
+  293  git status
+  294  git commit -m "merged with origin/master"
+  295  git log --all --oneline --graph --decorate
+  296  git push
+  297  git status
+  298  git commit -a -m "main commit 1"
+  299  git push
+  300  git fetch
+  301  git log --all --oneline --graph --decorate
+  302  git merge origin/master
+  303  git log --all --oneline --graph --decorate
+  304  git commit -a -m "merged with remote 2"
+  305  git log --all --oneline --graph --decorate
+  306  git push
+  307  git log --all --oneline --graph --decorate
+  308  git fetch master
+  309  git fetch origin/master
+  310  git fetch 
+  311  git log --all --oneline --graph --decorate
+  312  git merge origin/master 
+  313  git commit -a -m "merged with remote 3"
+  314  git push
+  315  git log --all --oneline --graph --decorate
+  316  gitk
+  317  git pull
+  318  git pull
+  319  git push
+  320  git checkout origin/master
+  321  git checkout master
+  322  git checkout origin/master 
+  323  git checkout master
+  324  git checkout origin/master 
+  325  git checkout master
+  326  git add .
+  327  git commit -m "main oooo1"
+  328  git status
+  329  git checkout origin/master 
+  330  git checkout master
+  331  git fetch 
+  332  git fetch
+  333  git log --all --oneline --graph --decorate
+  334  git merge origin/master
+  335  git add .
+  336  git status
+  337  git commit -m "main test 1"
+  338  git log --all --oneline --graph --decorate
+  339  git push
+  340  git fetch
+  341  git log --all --oneline --graph --decorate
+  342  git merge origin/master 
+  343  git commit -a -m "main local 1"
+  344  git log --all --oneline --graph --decorate
+  345  git push
+  346  git fetch
+  347  git log --all --oneline --graph --decorate
+  348  git merge
+  349  git status
+  350  git add .
+  351  git status
+  352  git commit -m "merged latest remote 1"
+  353  git log --all --oneline --graph --decorate
+  354  git push
+  355  git branch test
+  356  git branch 
+  357  git checkout test
+  358  git log --all --oneline --graph --decorate
+  359  git status
+  360  git commit -a -m "test branch commit 1"
+  361  git log --all --oneline --graph --decorate
+  362  git push --all
+  363  git checkout master
+  364  git log --all --oneline --graph --decorate
+  365  git tag -a "V1.0.0"
+  366  git log --all --oneline --graph --decorate
+  367  git checkout test
+  368  git log --all --oneline --graph --decorate
+  369  git checkout V1.0.0
+  370  git push --all
+  371  git checkout master
+  372  git push --tags
+  373  git remote
+  374  git branch --remote
+  375  git log --all --oneline --graph --decorate
+  376  git checkout test
+  377  git commit -a -m "test branch 2"
+  378  git push
+  379  git push --set-upstream origin test
+  380  git commit -a -m "test branch 3"
+  381  git push
+  382  git checkout master
+  383  git fetch
+  384  git log --all --oneline --graph --decorate
+  385  git merge origin/master 
+  386  git log --all --oneline --graph --decorate
+  387  git merge test
+  388  git add .
+  389  git status
+  390  git commit -m "master merged to test"
+  391  git log --all --oneline --graph --decorate
+  392  git push
+  393  git log --all --oneline --graph --decorate
+  394  git log --all --oneline --graph --decorate
+  395  git log --all --oneline --graph --decorate
+  396  git fetch 
+  397  git log --all --oneline --graph --decorate
+  398  git merge origin/master
+  399  git log --all --oneline --graph --decorate
+  400  git switch -c BranchV1.0.0 V1.0.0
+  401  git log --all --oneline --graph --decorate
+  402  git add .
+  403  git status
+  404  git commit -m "v1.0.0 bugfix 1"
+  405  git push --all
+  406  git log --all --oneline --graph --decorate
+  407  git log --all --oneline --graph --decorate
+  408  git add .
+  409  git commit -m "v1.0.0 bugfix 2"
+  410  git push
+  411  git push --set-upstream origin BranchV1.0.0
+  412  git log --all --oneline --graph --decorate
+  413  git fetch 
+  414  git log --all --oneline --graph --decorate
+  415  git commit -a -m "master devam 1"
+  416  git push
+  417  git log --all --oneline --graph --decorate
+  418  git fetch 
+  419  git log --all --oneline --graph --decorate
+  420  git branch 
+  421  #!/bin/sh
+  422  java -cp ./:./*:../lib/* $@ com.adenon.NetworkmapApplication
+  423  git  --version 
+  424  cd /c/git
+  425  ls -al
+  426  cd ttt1/
+  427  git status
+  428  git checkout master
+  429  git ll
+  430  git branch
+  431  git log -help
+  432  git status
+  433  git status
+  434  git add .
+  435  git commit -m "ms commit 1"
+  436  git diff 
+  437  git diff HEAD~2
+  438  git ll
+  439  git ll -all
+  440  git ll 
+  441  git log --decorate -all
+  442  git log --decorate --all
+  443  git log --decorate --all
+  444  git log --decorate --all
+  445  git log --decorate --all --graph 
+  446  git log --decorate --all --graph 
+  447  git log --decorate --all --graph 
+  448  git log --decorate --all --graph --oneline
+  449  git branches
+  450  git branche
+  451  git branch
+  452  git checkout osman/feature1 
+  453  git add .
+  454  git commit -m "br commit 3" 
+  455  git commit -am "br commit 4" 
+  456  git log --decorate --all --graph --oneline
+  457  git rebase master
+  458  git status
+  459  git add .
+  460  git rebase continue
+  461  git rebase
+  462  git rebase --continue 
+  463  git status
+  464  git status
+  465  git commit -am "rebase 2"
+  466  git status
+  467  git rebase --continue 
+  468  git rebase --continue 
+  469  git status
+  470  git add .
+  471  git commit -m "bb 123"
+  472  git rebase --continue 
+  473  git log --decorate --all --graph --oneline
+  474  git checkout master
+  475  git log --decorate --all --graph --oneline
+  476  git checkout a19d37a
+  477  git log --decorate --all --graph --oneline
+  478  git status
+  479  git checkout a19d37a
+  480  git checkout master
+  481  git merge osman/feature1 
+  482  git log --decorate --all --graph --oneline
+  483  git branch --delete osman/feature1 
+  484  git log --decorate --all --graph --oneline
+  485  git checkout 13331ce
+  486  git branch newB
+  487  git branch 
+  488  git checkout newB
+  489  git git status
+  490  git status
+  491  git commit -am "test merge 1"
+  492  git log --decorate --all --graph --oneline
+  493  git checkout master 
+  494  git log --decorate --all --graph --oneline
+  495  git merge newB
+  496  git status
+  497  git add .
+  498  git commit -m "merged"
+  499  git merge --continue 
+  500  git log --decorate --all --graph --oneline
+  501  git
+  502  cd ..
+  503  cd ..
+  504  mkdir
+  505  mkdir gittraining
+  506  cd gittraining/
+  507  mkdir test1
+  508  cd test1
+  509  git init
+  510  cd ..
+  511  ls -al
+  512  git clone https://github.com/osmanyaycioglu/git20220930.git
+  513  ls -al
+  514  cd git20220930/
+  515  git branch
+  516  git branch -m master
+  517  ls -al
+  518  ls -al
+  519  git status
+  520  git add file1.txt
+  521  git status
+  522  git status
+  523  git status
+  524  git commit -m "first commit"
+  525  git log
+  526  git log --oneline
+  527  git status
+  528  git add .
+  529  git status
+  530  git remote -v
+  531  git remote -help
+  532  git remote set-url --push origin https://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@github.com/osmanyaycioglu/git20220930.git
+  533  git remote -v
+  534  git log
+  535  git push
+  536  git push origin HEAD
+  537  git status
+  538  git commit -m "commit 2"
+  539  ls -al
+  540  git status
+  541  ls -al
+  542  git log
+  543  git log
+  544  git remote -v
+  545  git log
+  546  git show 6b76d24522039f812ef2322e3f95802e44095adf
+  547  git show 6b76d24522039f812ef2322e3f95802e44095adf
+  548  git show 6b76d24522
+  549  git show 6b76d24
+  550  git push
+  551  git remote -help
+  552  git push -help
+  553  git remote -help
+  554  git remote set-head master
+  555  git push origin HEAD
+  556  git status
+  557  git log
+  558  git config --all
+  559  git config --get-all
+  560  git config --global --get-all
+  561  git config --list
+  562  git log 
+  563  git checkout 30a4cbe0dcb05245f3e360b593ec7b54fb3a133b
+  564  git log
+  565  ls -al
+  566  ls -al
+  567  git log --all
+  568  git branch branch1
+  569  git branch
+  570  git checkout branch1
+  571  git log --all --decorate --oneline --graph
+  572  git status
+  573  ls -al
+  574  rm file2.txt 
+  575  ls -al
+  576  git status
+  577  git add .
+  578  git commit -m "branch1 commit1"
+  579  git log --all --decorate --oneline --graph
+  580  git status
+  581  git add .
+  582  git status
+  583  git commit -m "branch1 commit2"
+  584  git log --all --decorate --oneline --graph
+  585  git checkout 2823da0
+  586  git branch branch1sub1
+  587  git branch 
+  588  git checkout branch1sub1 
+  589  ls -al
+  590  git status
+  591  git add .
+  592  git status
+  593  git commit -m "branch1sub1 commit1"
+  594  git log --all --decorate --oneline --graph
+  595  ls -al
+  596  git checkout branch1
+  597  ls -al
+  598  git merge branch1sub1
+  599  git status
+  600  git add .
+  601  git status
+  602  git commit -m "branch1 merging branch1sub1"
+  603  git log --all --decorate --oneline --graph
+  604  git checkout master
+  605  ls -al
+  606  git merge branch1
+  607  git log --all --decorate --oneline --graph
+  608  git status
+  609  git status
+  610  git status
+  611  git status
+  612  git add .
+  613  git status
+  614  git commit -m "master commit 3"
+  615  git diff HEAD~2
+  616  git push -help
+  617  git push --all
+  618  cd ..
+  619  mkdir user1
+  620  git clone https://github.com/osmanyaycioglu/git20220930.git
+  621  cd user1
+  622  git clone https://github.com/osmanyaycioglu/git20220930.git
+  623  ls -al
+  624  cd ..
+  625  ls -al
+  626  cd user1
+  627  ls -al
+  628  cd git20220930/
+  629  ls -al
+  630  git status
+  631  git add .
+  632  git commit -m "user1 commit 1"
+  633  git log --all --decorate --oneline --graph
+  634  git config --global alias.lsa "log --all --decorate --oneline --graph"
+  635  git lsa
+  636  git lsa
+  637  git remote -v
+  638  git remote set-url --push https://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@github.com/osmanyaycioglu/git20220930.git
+  639  git remote set-url --push origin https://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@github.com/osmanyaycioglu/git20220930.git
+  640  git remote -v
+  641  git push --all
+  642  git fetch
+  643  git lsa
+  644  git merge orig/master
+  645  git merge origin/master
+  646  git lsa
+  647  git switch -c user/feature/addsomelines
+  648  git lsa
+  649  ls -al
+  650  ls -al
+  651  git status
+  652  git add .
+  653  git status
+  654  git commit -m "user1 feature commit1"
+  655  git lsa
+  656  git fetch 
+  657  git lsa
+  658  git checkout master
+  659  git merge origin/master
+  660  ls -al
+  661  git lsa
+  662  git checkout user/feature/addsomelines
+  663  git lsa
+  664  git checkout 30a4cbe
+  665  git lsa
+  666  git checkout f6b352b
+  667  git lsa
+  668  git checkout user/feature/addsomelines
+  669  git lsa
+  670  git push --all
+  671  git commit -am "user1 branch commit 2"
+  672  git lsa
+  673  git push --all
+  674  git pull
+  675  git pull origin master
+  676  git lsa
+  677  git merge --abort
+  678  git status
+  679  git checkout master
+  680  git merge origin/master
+  681  git lsa
+  682  git push --all
+  683  git checkout user/feature/addsomelines
+  684  git push --all
+  685  git checkout master
+  686  git lsa
+  687  git merge user/feature/addsomelines
+  688  git status
+  689  git commit -m "merged to branch 2"
+  690  git push --all
+  691  git lsa
+  692  git status
+  693  git status
+  694  git lsa
+  695  git push --all
+  696  git fetch 
+  697  git lsa
+  698  git merge origin/master
+  699  git lsa
+  700  git lsa
+  701  git push --all
+  702  git lsa
+  703  git tag -help
+  704  git tag release1.0.1
+  705  git lsa
+  706  git lsa
+  707  git push --all
+  708  git push --tags 
+  709  git tag release1.0.0 76531ad
+  710  git lsa
+  711  git checkout release1.0.0
+  712  git lsa
+  713  git reflog
+  714  git checkout master
+  715  git lsa
+  716  git status
+  717  git status
+  718  git lsa
+  719  git status
+  720  git stash -help
+  721  git stash -a
+  722  git stash list
+  723  git status
+  724  git fetch 
+  725  git lsa
+  726  git merge origin/master
+  727  git lsa
+  728  git stash -help
+  729  git status
+  730  git stash pop
+  731  git status
+  732  git stash list
+  733  git stash -help
+  734  git stash clear
+  735  git stash list
+  736  git status
+  737  git commit list
+  738  git stash list
+  739  git commit -m "stash commit 1"
+  740  git lsa
+  741  git push --all
+  742  git lsa
+  743  git push --tags 
+  744  git 
+  745  git cat-file 30a4cbe
+  746  git cat-file -p 30a4cbe
+  747  git cat-file 90e265d318bda2227bc3bb01a2ebf16579566037
+  748  git cat-file tree 90e265d318bda2227bc3bb01a2ebf16579566037
+  749  history
+  750  history > history.txt
